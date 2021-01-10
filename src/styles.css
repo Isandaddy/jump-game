@@ -1,15 +1,15 @@
 #game {
   width: 500px;
-  height: 300px;
+  height: 200px;
   margin: auto;
   border: 3px solid black;
 }
 
 #character {
   position: relative;
-  top: 250px;
+  top: 150px;
   left: 10px;
-  width: 50px;
+  width: 20px;
   height: 50px;
 }
 .smile {
@@ -21,11 +21,12 @@
 #block {
   position: relative;
   /* game height - character height - block height (300 - 50 - 50) */
-  top: 200px;
+  top: 130px;
   /* game width - block width (500 - 30) */
-  left: 470px;
-  width: 30px;
-  height: 50px;
+  left: 480px;
+  width: 20px;
+  height: 20px;
+  animation: block 1.5s infinite linear;
 }
 
 .red_block {
@@ -36,18 +37,21 @@
 
 @keyframes jump {
   0% {
-    top: 250px;
+    top: 150px;
   }
   30% {
-    top: 150px;
+    top: 90px;
+  }
+
+  50% {
+    top: 80px;
   }
   70% {
-    top: 150px;
+    top: 90px;
   }
   100% {
-    top: 250px;
+    top: 150px;
   }
-  /* game height - character height (300 - 50) */
 }
 
 .animate {
@@ -59,6 +63,6 @@
     left: 500px;
   }
   100% {
-    left: -30px;
+    left: -20px;
   }
 }

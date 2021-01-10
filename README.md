@@ -1,10 +1,14 @@
 # jump-game
-Created with CodeSandbox
 
 ## 参考
+
 https://blog.logrocket.com/build-a-game-with-html-css-javascript/
 
-無料のpixelイメージ使用
+20210110 出来事
+![jump2](/screen/jump2.png)
 
-20210106出来事
-![jump1](/screen/jump1.png)
+### 機能
+
+up ボタンに反応するようにする。
+jump する間表情が変わる。
+game over 時繰り返すか聞く。
