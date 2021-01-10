@@ -9,6 +9,6 @@ https://blog.logrocket.com/build-a-game-with-html-css-javascript/
 
 ### 機能
 
-up ボタンに反応するようにする。
-jump する間表情が変わる。
+up ボタンに反応するようにする。  
+jump する間表情が変わる。  
 game over 時繰り返すか聞く。
